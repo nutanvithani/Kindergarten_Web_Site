@@ -1,0 +1,300 @@
+/*------------------------------------HOME-------------------------------------*/
+/*mini header*/
+.mini-header {
+    background-color: #e83e8c;
+    height: 5%;
+}
+
+/*header*/
+.header {
+    height: 74px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hero-btn {
+    background-color: rgb(18, 217, 223);
+    border: transparent;
+    font-size: 18px;
+}
+
+/*banner*/
+.bannerimg {
+    background-image: url(../img/bannerimg.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+}
+
+.banner-div {
+    padding-top: 100px;
+    padding-left: 250px;
+    letter-spacing: 3;
+}
+
+.main-div {
+    width: 560px;
+}
+
+.text-1 {
+    color: #423F8D;
+    font-size: 70px;
+}
+
+.btnn {
+    background-color: #ED078B;
+    border: transparent;
+    width: 150px;
+    height: 40px;
+}
+
+/*section 1*/
+.sec-1 {
+    font-weight: 900;
+}
+
+.sec1-text1 {
+    color: #423F8D;
+}
+
+.sec1-text2 {
+    color: #ED078B;
+}
+
+/*section 2*/
+
+.sec2-color1 {
+    color: #1F97D4;
+}
+
+.sec2-color2 {
+    color: rgb(18, 217, 223);
+}
+
+/*section 3*/
+.sec-3img {
+    background-image: url(../img/color-img1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 950px;
+}
+
+.hero-btn1 {
+    background-color: white;
+    border-color: #ED078B;
+    color: #ED078B;
+    width: 160px;
+    height: 50px;
+    transition: 0.6s;
+}
+
+.hero-btn1:hover {
+    background-color: #ED078B;
+    color: white;
+}
+
+.sec-3 {
+    width: 85%;
+}
+
+/*section 4*/
+.img2 {
+    background-image: url(../img/img2.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.sec-4 {
+    width: 28%;
+    height: 64%;
+}
+
+.sec4-div {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+/*offcanvas*/
+.offcanvas-btn {
+    position: relative;
+    left: 200px;
+}
+
+/*section 6*/
+.sec-6 {
+    background-image: url(../img/color-img1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 520px;
+}
+
+.sec6-img {
+    width: 380px;
+}
+
+/*footer*/
+.footer-div {
+    background-color: #423F8D;
+}
+
+.footer {
+    gap: 300px;
+}
+
+.footer-icon {
+    background-color: #3b397e;
+}
+
+.footer-ul li {
+    list-style: none;
+}
+
+/*----------------------------------CLASS-------------------------------*/
+/*banner*/
+.classbanner {
+    background-image: url(../img/class-banner.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.c-banner {
+    font-size: 100px;
+    left: 14%;
+    top: 26%;
+}
+
+/*------------------------------------BLOG-------------------------------*/
+/*section 1*/
+
+.blog_sec-1 {
+    background-color: #ED078B;
+    width: 12%;
+    height: 90px;
+}
+
+.b-text1:hover {
+    color: #ED078B;
+}
+
+/*section 2*/
+.single_blog {
+    height: 400px;
+    width: 700px;
+}
+
+.b-keyword {
+    height: 50px;
+    width: 250px;
+}
+
+.b-search {
+    background-color: #ED078B;
+    border: transparent;
+}
+
+.b-searchbtn {
+    border: 1px solid #ED078B;
+    height: 50px;
+    width: 300px;
+    letter-spacing: 3px;
+    color: #ED078B;
+}
+
+.b-searchbtn:hover {
+    background-color: #e83e8c;
+    color: white;
+}
+
+.b-sec {
+    list-style: none;
+}
+
+.b_btn {
+    border: 1px solid gray;
+    height: 30px;
+    width: 25%;
+}
+
+.b_btn:hover {
+    border: transparent;
+    background-color: #ED078B;
+    color: white;
+}
+
+.b-keyword1 {
+    width: 300px;
+}
+
+/*------------------------------------------contact-------------------------------------------*/
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+#btn-spin {
+    font:
+        bold 12px/20px 'Helvetica Neue',
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    border: none;
+    width: 200px;
+    margin-left: -100px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
+.c-map {
+    margin-top: 35%;
+    margin-left: 20%;
+}
+
+/*section 1*/
+.c-sec1 {
+    padding-top: 40%;
+}
+
+.c-box1 {
+    width: 800px;
+    height: 200px;
+}
+
+.c-box2 {
+    width: 376px;
+    height: 50px;
+}
+
+.c-box3 {
+    width: 800px;
+    height: 50px;
+}
+
+.book1 {
+    width: 240px;
+}

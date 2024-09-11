@@ -1,0 +1,41 @@
+/*counter*/
+:root {
+    --smaller: .75;
+  }
+
+  .container {
+    color: #423F8D;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+  }
+  
+  .counterli li {
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 40px;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
